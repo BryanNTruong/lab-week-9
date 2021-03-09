@@ -23,7 +23,3 @@ if(num1 === num2){
 }else{
     console.log("test 3 (type): No luck");  
 }
-
-for (letter in str){
-    console.log(str[i]);
-}
