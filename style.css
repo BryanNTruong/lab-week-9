@@ -1,0 +1,17 @@
+div{
+    background-color: blue;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1200px){
+    div{
+        background-color: yellow;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 360px) and (max-height: 640px){
+    div{
+        background-color: red;
+        font-size: 50px;
+    }
+}
